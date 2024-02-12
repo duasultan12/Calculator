@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>
+    Calculator App! 
+</title>
+<link rel="stylesheet" href="cal.css">
+    </head>
+    <body>
+        <h1>Calculator</h1>
+<div class="box">
+    <form name="cal">
+        <input type="text" name="display" id="display" placeholder="0" readonly class="input">
+    <br>
+    <div class="button-box"> 
+        <button type="button" class="btn" value="1" onclick="Display('1')" >1</button>
+        <button type="button" class="btn" value="2" onclick="Display('2')" >2</button>
+        <button type="button" class="btn" value="3" onclick="Display('3')">3</button>
+        <button type="button" class="btn" value="+" onclick="Display('+')">+</button>
+        <br>
+        <button type="button" class="btn" value="4" onclick="Display('4')">4</button>
+        <button type="button" class="btn" value="5" onclick="Display('5')">5</button>
+        <button type="button" class="btn" value="6" onclick="Display('6')">6</button>
+        <button type="button" class="btn" value="-" onclick="Display('-')">-</button>
+        <br>
+        <button type="button" class="btn" value="7" onclick="Display('7')">7</button>
+        <button type="button" class="btn" value="8" onclick="Display('8')">8</button>
+        <button type="button" class="btn" value="9" onclick="Display('9')">9</button>
+        <button type="button" class="btn" value="/" onclick="Display('/')">/</button>
+        <br>
+        <button type="button" class="btn" value="C" onclick="Clear()">C</button>
+        <button type="button" class="btn" value="0" onclick="Display('0')">0</button>
+        <button type="button" class="btn" value="="onclick="Calculate()">=</button>
+        <button type="button" class="btn" value="*" onclick="Display('*')">*</button>
+    </div>
+    </form>
+</div>    
+<script src="cal.js">
+</script>    
+    </body>
+</html>
